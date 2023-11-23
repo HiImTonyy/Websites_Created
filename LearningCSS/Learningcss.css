@@ -32,3 +32,53 @@
     border-color: lavenderblush;
 }
 
+.sorandom {
+    border-style: dashed outset dotted groove;
+    border-color:gold red orange blue;
+    border-width: 5px 9px 8px 6px;
+    font-weight:bold;
+}
+
+#radius {
+    border: 2px solid purple;
+    width: 545px;
+    margin: auto;
+}
+
+.box {
+    background-color:grey;
+    width: 315px;
+    border: 8px solid black;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: 12px outset rgb(153, 150, 150);
+}
+
+.post div {
+    padding: 10px;
+    border: 2.5px solid red;
+    outline: 7px outset crimson;
+    width: 1550px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.post h1 {
+    text-transform: uppercase;
+    color: rgb(39, 26, 26);
+}
+
+.post p {
+    margin: auto;
+    color: rgb(2, 2, 2);
+    letter-spacing: 1.5px;
+    text-indent: 25px;
+    font-weight:600
+}
+
+.post b {
+    color:crimson;
+}
