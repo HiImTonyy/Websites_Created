@@ -2,6 +2,7 @@
     color: rgb(0, 0, 0);
     text-align: center;
     background-color:lavender;
+    font-size:100%;
 }
 
 .ase {
@@ -58,12 +59,12 @@
 }
 
 .post div {
-    padding: 10px;
-    border: 2.5px solid red;
-    outline: 7px outset crimson;
-    width: 1550px;
+    padding: 0.625em; 
+    border: 0.15625em solid red; 
+    outline: 0.4375em outset crimson; 
+    width: 90vw; 
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em; 
 }
 
 .post h1 {
@@ -74,11 +75,156 @@
 .post p {
     margin: auto;
     color: rgb(2, 2, 2);
-    letter-spacing: 1.5px;
-    text-indent: 25px;
-    font-weight:600
+    letter-spacing: 0.09375em; 
+    text-indent: 1.5625em; 
+    font-weight: 600;
 }
 
 .post b {
     color:crimson;
+}
+
+.post img {
+    float:left;
+    width: 300px;
+    height: 200px;
+}
+
+#quote {
+    word-spacing: 4px;
+    text-shadow: 0.7px 1.8px rgb(71, 8, 8);
+    font-size: small;
+}
+
+#quote em {
+    font-weight: bold;
+}
+
+a:link {
+    background-color:blanchedalmond;
+    color: rgb(0, 0, 0);
+    display:inline-block;
+    text-decoration: none;
+    padding: 13px 12px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    background-color: rgb(252, 219, 171);
+    font-size: 105%;
+}
+
+.list2 ol {
+    background: rgb(0, 0, 0);
+    padding: 0.666em;
+    margin: auto;
+    width: 445px;
+    margin-bottom: 25px;
+}
+
+.list2 li {
+    list-style-position: inside;
+    margin:4px;
+    background-color: rgb(199, 202, 10);
+    color: rgb(255, 0, 0);
+    font-weight: lighter;
+    text-shadow: 0.7px 0.9px rgb(112, 3, 3);
+}
+
+#table {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse:collapse;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 30%;
+    border-style: solid;
+    border-color:rgb(151, 150, 150);
+    border-width: 9.5px;
+    padding-bottom: 5px;
+    text-shadow: 0.3px 0.4px;
+    background-color: rgb(255, 255, 255);
+}
+
+#table td {
+    border: 2.5px solid rgb(92, 79, 79);
+    padding: 4.5px;
+    
+}
+
+#table tr:hover {background-color: rgb(196, 196, 212);}
+
+#table th {
+    padding: 4.5px;
+    background-color: rgb(207, 204, 204);
+}
+
+div.outside {
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 4px solid;
+    border-color: rgb(158, 0, 79);
+    background-color: rgb(150, 0, 219);
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+div.inside {
+    position: absolute;
+    width: 250px;
+    border: 4px solid;
+    border-color: rgb(139, 3, 3);
+    background-color: rgb(0, 0, 0);
+    color: rgb(207, 0, 0);
+    right: 20px;
+    bottom: 55px;
+}
+
+.inside p {
+    position: absolute;
+    width: auto;
+    border: 1px dotted;
+    border-color: rgb(126, 10, 74);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    left: 220px;
+    bottom: -62px;
+    font-size: 8px;
+}
+
+.post2 div {
+    padding: 0.625em; 
+    border: 0.15625em solid red; 
+    outline: 0.4375em outset crimson; 
+    width: 90vw; 
+    margin: auto;
+    margin-bottom: 1.875em; 
+    background-color: black;
+}
+
+.post2 h1 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.post2 p {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.09375em; 
+    text-indent: 1.5625em; 
+    font-weight: 600;
+}
+
+.post2 b {
+    color:crimson;
+}
+
+.post2 img {
+    float:top;
+    width: 415px;
+    height: 315px;
+    margin-bottom: 15px;
 }
