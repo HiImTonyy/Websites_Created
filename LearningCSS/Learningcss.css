@@ -355,19 +355,125 @@ div.inside {
 .form h2 {font-size: 20px;}
 
 input[type=text] {
-  width: 130px;
+  width: 230px;
+  max-width: 800px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 5px solid #cccccc;
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
+  transition: width 2s ease-in-out;
 }
 
 input[type=text]:focus {
   width: 100%;
+}
+
+input.two[type=text], select {
+    width: 10%;
+    padding: 6px 14px;
+    margin: 12px 12px;
+    display: inline-block;
+    border: 1.5px solid rgb(214, 9, 9);
+    transition: 0.2s;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: silver;
+}
+
+input.two[type=text]:focus {
+    font-size: 110%;
+    border-color: rgb(255, 0, 0);
+    border-width: 3px;
+}
+
+input.two[type=submit] {
+    width: 300px;
+    height: 50px;
+    background-color: blueviolet;
+    color: gold;
+    padding: 9px 13px;
+    margin: 4px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input.two[type=submit]:hover {
+    background-color:rgba(104, 25, 179, 0.705)
+}
+
+.divform {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+textarea.two {
+    margin-top: 7px;
+    width: 30%;
+    height: 220px;
+    padding: 5px 13px;
+    box-sizing: border-box;
+    resize: none;
+    border-color: rgb(255, 0, 0);
+    border-width: 3px;
+}
+
+.shadow {
+    border-style: solid;
+    border-color: red;
+    box-shadow: 6px 6px;
+    margin: auto;
+    width: 300px;
+}
+
+span {
+    writing-mode: vertical-lr;
+}
+
+div#rotate {
+    transform: rotate(-25deg);
+    background-color: darkgreen;
+    margin: auto;
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+    color:lightgreen;
+}
+
+div#rotate2 {
+    position: absolute;
+    transform: rotate(25deg);
+    background-color: darkgreen;
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 46.6%;
+    margin-top: 77px;
+    color: lightgreen;
+}
+
+div.jump {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 250px;
+    margin-left: 250px;
+    width:300px;
+    height: 300px;
+    background: sienna;
+    transition: width 1.5s, height 1.5s, transform 1.5s;
+}
+
+.jump:hover {
+    width: 600px;
+    height: 600px;
+    transform: rotate(360deg);
+    font-size: 110%;
+    font-weight: bold;
 }
