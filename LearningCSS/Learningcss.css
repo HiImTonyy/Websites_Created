@@ -258,7 +258,6 @@ div.inside {
 .navhorz {
     list-style-type: none;
     margin: auto;
-    padding: 0;
     text-align: center;
 }
 
@@ -267,7 +266,7 @@ div.inside {
     margin-left: 3px;
 }
 
-.navhorz li a {
+.navhorz a {
     background-color: rgb(255, 255, 255);
     padding: 6px 12px;
     border-style: solid;
@@ -276,7 +275,99 @@ div.inside {
     font-size: 15px;
 }
 
-.navhorz li a:hover {
+.navhorz a:hover {
     background-color: aqua;
-    font-size: 130%;
+    font-size: 125%;
+}
+
+.navvert {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    text-align: left;
+}
+
+.navvert li {
+    display: block;
+    margin: auto;
+}
+
+.navvert a {
+    margin-top: -25px;
+    background-color:black;
+    width: 180px;
+    color:white;
+    text-align: left;
+}
+
+.navvert a:hover {
+    background-color: rgb(119, 3, 80);
+    font-size: 115%
+}
+
+.downdown {
+    text-align: center; 
+    position: relative; 
+}
+
+.dropdown-trig {
+    display: inline-block; 
+    cursor: pointer; 
+}
+
+.downdown a {
+    border-style: solid;
+    border-color:rgb(43, 43, 170);
+    display: block;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+.dropdown-stuff {
+    display: none;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 300px;
+    text-align: left; 
+}
+
+.dropdown-trig:hover + .dropdown-stuff, .dropdown-stuff:hover {
+    display: block;
+}
+
+.dropdown-stuff a:hover {
+    background-color: cadetblue;
+}
+
+.form {
+    background-color: silver;
+    margin: auto;
+    width: 775px;
+    height: 350px;
+    margin-top: 145px;
+    padding-top: 60px;
+    left: 43%;
+}
+
+.form h2 {font-size: 20px;}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
 }
