@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'papyrus';
+  src: url('papyrus-webfont.woff2') format('woff2'),
+       url('papyrus-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('lato-webfont.woff2') format('woff2'),
+       url('lato-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.container {
+  width: 800px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.head {
+  width: 780px;
+  height: 183px;
+  background: radial-gradient(370px 98px, white, grey, black);
+  background-size: 150% 145%;
+  color: #000000;
+  font-family: papyrus, Helvetica, sans-serif;
+  font-size: 36px;
+  text-shadow: 0.5px 0.5px;
+  animation: sway 3s ease-in-out infinite;
+}
+
+
+b {
+  font-style: oblique;
+}
+
+@keyframes sway {
+  0%, 100% {
+    background-position: -219px;
+  }
+  50% {
+    background-position: -172px;
+  }
+}
+
+.intro {
+  background: radial-gradient(650px 220px, white, grey, black);
+  width: 798px;
+  height: 380px;
+}
+
+.intro p {
+  display: inline-block;
+  font-family: 'lato', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  border-style:dashed;
+  border-width: 5px;
+  border-radius: 11px;
+  margin-bottom: 36px;
+}
+
+.scroll {
+  text-align: justify;
+  word-spacing: 2px;
+  border-radius: 65px;
+  width: 800px;
+  border-style: solid;
+  border-width: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #D7D7D7;
+  border-color: #464646;
+}
+
+.main {
+  width: 790px;
+  height: 612px;
+  position: fixed;
+}
+
+.mainc {
+  border-style: solid;
+  border-color: #464646;
+  border-width: 7px;
+  background-color:#D7D7D7;
+  text-align: center;
+}
+
+.mainc p {
+  letter-spacing: -0.7px;
+  line-height: 19px;
+}
