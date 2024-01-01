@@ -122,3 +122,25 @@ b {
 
 .mainc .tv {}
 
+.rightbar {
+  border-style: solid;
+  border-color: #464646;
+  background-color:#D7D7D7;
+  text-align: center;
+  width: 57px;
+  height: 547px;
+  float: right;
+}
+
+.bottombar {
+  border-style: solid;
+  border-color: #464646;
+  background-color:#D7D7D7;
+  text-align: center;
+  width: 437px;
+  height: 74px;
+  position: relative;
+  top: 550px;
+  left: 240px
+}
+
