@@ -1,0 +1,122 @@
+.bgcolor {
+    background-color: rgb(255, 228, 196);
+}
+
+.orngtxt {
+    color: rgb(255, 136, 0);
+}
+
+.whttxt {
+    color: white;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-center {
+    justify-content:center;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.marg {
+    margin: 8px;
+}
+
+.padd {
+    padding: 15px;
+}
+
+.paddhead {
+    padding: 9px 15px;
+}
+
+.headfont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.fillcolor {
+    background-color: rgb(122, 167, 255);
+}
+
+.nobord {
+    border: none;
+}
+
+.curvebord {
+    border-radius: 666px;
+}
+
+.bolduplet {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+.fullw {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.z10 {
+    z-index: 10;
+}
+
+.bld {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+/* 
+Block: takes up entire width of PARENT container.
+Inline: Takes up space as the size of itself. does NOT use margin top / bottom.
+Inline-block: Same as inline, but includes margin.
+Hidden: Obvious. 
+Flex: Makes children side by side. basically a mix of block and inline.
+Justify-between: Spaces out children. must have flex display. 
+align-items: aligns items within flex to whatever you set it up as.
+position reletive: Move around reletive to what you set the value. 
+*/ 
