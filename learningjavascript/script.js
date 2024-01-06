@@ -1,3 +1,5 @@
+// random comment. 
+
 let cash = 0;
 let randoWord = "scorched" 
 let randoString = "Earth"
@@ -100,6 +102,22 @@ function loginCheck() {
             alert("Nice try.. now fuck off.")
         }
     } else {
-        alert("Wrong pass. GO AWAY!")
+        alert("Wrong... GO AWAY!")
     }
+}
+
+function changeHtml() {
+    document.getElementById("test").innerHTML = "So below";
+}
+
+function changeHtml2() {
+    document.getElementById("test").innerHTML = "As Above";
+}
+
+function changeCss() {
+    document.getElementById("test").style.color = "red";
+}
+
+function freeMoney() {
+    document.getElementById("freeMoney").style.display = "block";
 }
