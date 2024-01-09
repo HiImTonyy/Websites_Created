@@ -83,7 +83,7 @@ b {
 .main {
   width: 790px;
   height: 612px;
-  position: fixed;
+  position: static;
 }
 
 .mainc {
